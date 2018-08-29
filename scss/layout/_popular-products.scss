@@ -1,0 +1,13 @@
+.popular-products {
+  margin: 0 220px 87px;
+  &__text {
+    background-color: #252525;
+    padding: 38px 32px 38px 32px;
+  }
+  &__product {
+    border-right: 1px solid #dcdcdc;
+  }
+  [class^='col-'] {
+    padding: 0;
+  }
+}

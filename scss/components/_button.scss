@@ -1,0 +1,43 @@
+.btn-b-green {
+  /* Rectangle 10: */
+  background: #f7f7f7;
+  border: 2px solid #6e9075;
+  border-radius: 5px;
+  padding: 8px 38px;
+  font: 400 14px $main-font;
+  text-transform: uppercase;
+  color: $main-green;
+}
+
+.btn-red {
+  background-color: transparent;
+  border: 0;
+  text-transform: uppercase;
+  margin-left: 50px;
+  font: 700 13px $main-font;
+  padding-bottom: 14px;
+  border-bottom: 1px solid #a93b4b;
+  cursor: pointer;
+  transition: all 0.3s;
+  &:hover {
+    padding-bottom: 20px;
+  }
+  a {
+    color: #a93b4b;
+  }
+}
+
+.btn-white {
+  background-color: transparent;
+  border: 0;
+  text-transform: uppercase;
+  border: 1px solid #ffffff;
+  border-radius: 83px;
+  font-family: $main-font;
+  font-weight: 700;
+  padding: 10px 25px;
+  a {
+    font-size: 12px;
+    color: #fff;
+  }
+}

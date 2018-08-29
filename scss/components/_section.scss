@@ -1,0 +1,16 @@
+.subscribe-section,
+.brand-section {
+  background-color: $sections-bg;
+}
+.subscribe-section {
+  padding: 35px 0;
+  height: 111px;
+}
+
+.brand-section {
+  height: 205px;
+  padding: 40px 0;
+  .brand-section__logos {
+    margin-top: 30px;
+  }
+}

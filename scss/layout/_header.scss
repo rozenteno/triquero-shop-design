@@ -1,0 +1,47 @@
+.top {
+  background-color: $top-bg;
+  height: 35px;
+  padding: 3px;
+  a {
+    margin-right: 40px;
+    text-decoration: none;
+  }
+}
+
+.search-container {
+  height: 104px;
+  img {
+    margin: 15px 0;
+  }
+  .input-group {
+    margin: 35px 0;
+    /* Rectangle 5: */
+    background: #ffffff;
+    box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.08);
+    border-radius: 1px;
+    border: 0;
+  }
+  span.user-cart i {
+    padding: 43px 0;
+  }
+  .user-info {
+    &__actions {
+      padding: 41px 0;
+      span {
+        font-size: 16px;
+      }
+      a:last-child {
+        border-left: 1px solid #000;
+        padding-left: 2px;
+      }
+    }
+  }
+}
+
+.benefits-container {
+  margin-bottom: 15px;
+  i {
+    color: $main-green;
+    font-size: 18px;
+  }
+}

@@ -1,0 +1,124 @@
+// -----------Types of Headings-------------
+.heading-tertiary {
+  font-family: $terciary-font;
+  text-transform: uppercase;
+  font-size: 36px;
+  margin-top: 65px;
+}
+
+// -----------Top Container-------------
+.top {
+  a {
+    font: 700 12px $secondary-font;
+    color: #fff;
+  }
+}
+// -----------Header Container-------------
+.input-group {
+  font: 400 10px $main-font;
+}
+
+.search-container {
+  .user-info {
+    &__actions {
+      font: 700 10px $secondary-font;
+      a {
+        color: #9b9b9b;
+      }
+    }
+  }
+}
+
+.benefits-container {
+  font: 400 14px $secondary-font;
+}
+
+// -----------Navbar-------------
+.navbar ul.navbar-nav {
+  li.nav-item {
+    a {
+      margin-right: 50px;
+      font: 700 16px $main-font;
+      text-transform: uppercase;
+    }
+    &.active {
+      a {
+        color: $main-green;
+      }
+    }
+  }
+}
+
+// -----------Paragraph Class-------------
+.paragraph {
+  font: 400 16 $main-font;
+  &--grey {
+    margin-top: 15px;
+    font: 300 16px/2 $secondary-font;
+    color: #6b6b6b;
+  }
+  &--white {
+    font-size: 14px;
+    margin: 28px 0;
+  }
+}
+
+// -----------Subscribe Section-------------
+.subscribe-section {
+  &.__input {
+    font-family: $secondary-font;
+    font-weight: 300;
+  }
+}
+
+// -----------Popular Products Section-------------
+.popular-products {
+  &__text {
+    font-family: $main-font;
+
+    color: #fff;
+    h1,
+    h2 {
+      font-weight: 700;
+      text-transform: uppercase;
+    }
+    h2 {
+      font-size: 18px;
+    }
+    h1 {
+      font-size: 22px;
+    }
+  }
+  &__product {
+    &--name,
+    --brand {
+      font-family: $main-font;
+    }
+    &--name {
+      font-weight: 700;
+      font-size: 16px;
+      color: #000;
+      margin-top: 15px;
+      margin-bottom: 5px;
+    }
+    &--brand {
+      color: #9b9b9b;
+      font-size: 14px;
+    }
+    &--price {
+      font-family: $secondary-font;
+      font-weight: 700;
+      font-size: 24px;
+      padding-bottom: 19px;
+    }
+  }
+}
+
+// -----------Brand Section-------------
+.brand-section {
+  &__title {
+    font-family: $terciary-font;
+    font-size: 23px;
+    text-transform: uppercase;
+  }
+}
