@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="108px" height="108px" viewBox="0 0 108 108" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.1 (51147) - http://www.bohemiancoding.com/sketch -->
+    <title>Whatsapp</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="144-iPad-Retina" transform="translate(-17.000000, -18.000000)">
+            <g id="whatsapp-icon-copy">
+                <g id="Whatsapp" transform="translate(17.000000, 23.000000)">
+                    <g id="balloon-tip">
+                        <path d="M54,98 C81.0619541,98 103,76.0619541 103,49 C103,21.9380459 81.0619541,0 54,0 C26.9380459,0 5,21.9380459 5,49 C5,76.0619541 26.9380459,98 54,98 Z" id="Oval-1" stroke="#FFFFFF" stroke-width="10"></path>
+                        <polygon id="Triangle-1" fill="#FFFFFF" transform="translate(15.000000, 87.000000) rotate(-134.000000) translate(-15.000000, -87.000000) " points="15 79 28 95 2 95"></polygon>
+                    </g>
+                    <path d="M44.92394,29.8788096 L48.7373287,39.4103922 C48.7373287,39.4103922 49.129673,42.118443 45.3113318,44.665168 C41.4929906,47.2118929 58.6235253,61.4069081 62.1172057,60.2292287 C65.6108861,59.0515492 67.1252362,53.6710504 67.1252362,53.6710504 L77.9892671,59.1622522 C77.9892671,59.1622522 78.755246,70.7487937 67.3453452,69.9616343 C55.9354444,69.1744749 46.3359393,61.7940905 46.3359393,61.7940905 C46.3359393,61.7940905 29.7837407,47.7765336 33.5602616,36.5972013 C37.3367821,25.4178688 44.92394,29.8788096 44.92394,29.8788096 Z" id="phone" fill="#FFFFFF"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

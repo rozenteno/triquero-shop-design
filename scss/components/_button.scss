@@ -21,6 +21,9 @@
   transition: all 0.3s;
   &:hover {
     padding-bottom: 20px;
+    a {
+      text-decoration: none;
+    }
   }
   a {
     color: #a93b4b;

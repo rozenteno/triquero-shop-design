@@ -122,3 +122,38 @@
     text-transform: uppercase;
   }
 }
+
+// -----------Footer-------------
+footer.footer {
+  h1.footer--brand {
+    font: 700 1.2rem $terciary-font;
+    color: #fff;
+    text-transform: uppercase;
+  }
+  p.footer--data {
+    font: 400 0.7rem $secondary-font;
+    color: #616161;
+  }
+  h3.footer--link__main {
+    font: 400 0.7rem $main-font;
+    color: #fff;
+  }
+  ul {
+    list-style: none;
+    padding: 0;
+    li {
+      margin-top: 15px;
+      font: 400 0.5rem $secondary-font;
+      color: #9b9b9b;
+    }
+  }
+  .footer__bottom {
+    p {
+      font: 400 0.5rem $secondary-font;
+      color: #9b9b9b;
+      span {
+        font-weight: 700;
+      }
+    }
+  }
+}
