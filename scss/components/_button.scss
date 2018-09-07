@@ -8,7 +8,15 @@
   text-transform: uppercase;
   color: $main-green;
 }
-
+.btn-bg-green {
+  background-color: $main-green;
+  color: #fff;
+  font: 700 14px $main-font;
+  padding: 11px 15px;
+  text-transform: uppercase;
+  border: 0;
+  cursor: pointer;
+}
 .btn-red {
   background-color: transparent;
   border: 0;

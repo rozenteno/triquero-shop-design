@@ -19,6 +19,16 @@
 		"oF": 0,
 		"oS": 3
 		},
+	"\/img\/backpack.jpg": {
+		"ft": 16384,
+		"iS": 56998,
+		"oA": 0,
+		"oAP": "\/img\/backpack.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/img\/bio.jpg": {
 		"ft": 16384,
 		"iS": 527900,
@@ -141,6 +151,16 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
+		"q": 100
+		},
+	"\/img\/sight.jpg": {
+		"ft": 16384,
+		"iS": 29873,
+		"oA": 0,
+		"oAP": "\/img\/sight.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"q": 100
 		},
 	"\/img\/svg\/balloon tip.svg": {
@@ -402,6 +422,19 @@
 		"oAP": "\/css\/main.css",
 		"oF": 2,
 		"oS": 3,
+		"uL": 1
+		},
+	"\/scss\/pages\/_home.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/scss\/pages\/_home.css",
+		"oF": 0,
+		"oS": 0,
 		"uL": 1
 		}
 	},
