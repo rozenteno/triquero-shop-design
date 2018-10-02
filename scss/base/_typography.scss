@@ -251,17 +251,23 @@ footer.footer {
     list-style: none;
     padding: 0;
     li {
-      margin-top: 15px;
-      font: 400 12px $secondary-font;
-      color: #9b9b9b;
+      a {
+        margin-top: 15px;
+        font: 400 12px $secondary-font;
+        color: #9b9b9b;
+        text-decoration: none;
+      }
     }
   }
   .footer__bottom {
     p {
       font: 400 11px $secondary-font;
       color: #9b9b9b;
-      span {
-        font-weight: 700;
+      a {
+        color: #9b9b9b;
+        span {
+          font-weight: 700;
+        }
       }
     }
   }
