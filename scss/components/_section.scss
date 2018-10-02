@@ -3,14 +3,71 @@
   background-color: $sections-bg;
 }
 .subscribe-section {
-  padding: 35px 0;
-  height: 111px;
+  padding: 15px 0;
+  height: auto;
+  text-align: center;
+  @include respond('desktop') {
+    padding: 35px 0;
+    height: 111px;
+    text-align: unset;
+  }
+  .input-group {
+    margin: 10px 0;
+    @include respond('tab-port') {
+      margin: 0;
+    }
+  }
 }
 
 .brand-section {
-  height: 205px;
   padding: 40px 0;
-  .brand-section__logos {
-    margin-top: 30px;
+  &__logos {
+    margin: 30px;
+    img {
+      margin-top: 10px;
+      height: 40px;
+      @include respond('tab-port') {
+        height: auto;
+        margin-top: 0;
+      }
+    }
+  }
+  @include respond('desktop') {
+    height: 205px;
+  }
+}
+
+.login {
+  background-image: url('/img/login-signup-img.jpg');
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: center center;
+  &__information {
+    background-color: #fff;
+    height: 80vh;
+    padding: 25px 60px;
+    @include respond('tab-port') {
+      padding: 54px 130px;
+    }
+    form {
+      margin-top: 50px;
+      .form-group {
+        label {
+          font: 700 12px $main-font;
+          color: #9b9b9b;
+          text-transform: uppercase;
+        }
+        input {
+          border: none;
+          border-bottom: 1px solid #dedede;
+          border-radius: 0;
+        }
+      }
+    }
+  }
+  [class^='col-'] {
+    padding: 0;
   }
 }

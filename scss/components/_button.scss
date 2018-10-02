@@ -4,9 +4,12 @@
   border: 2px solid #6e9075;
   border-radius: 5px;
   padding: 8px 38px;
-  font: 400 14px $main-font;
+  font: 700 12px $main-font;
   text-transform: uppercase;
   color: $main-green;
+  @include respond('desktop') {
+    font-size: 14px;
+  }
 }
 .btn-bg-green {
   background-color: $main-green;
@@ -51,4 +54,23 @@
     font-size: 12px;
     color: #fff;
   }
+}
+
+.btn-bg-white {
+  background-color: #fff;
+  font: 700 13px $main-font;
+  color: $main-green;
+  border: none;
+  text-transform: uppercase;
+  padding: 16px 18px;
+  cursor: pointer;
+}
+.btn-bg-dark {
+  background-color: #252525;
+  font: 700 13px $main-font;
+  color: #fff;
+  border: none;
+  text-transform: uppercase;
+  padding: 16px 18px;
+  cursor: pointer;
 }

@@ -1,10 +1,66 @@
 .featured-products {
-  margin-bottom: 30px;
-  margin-top: 80px;
+  margin: 30px 0;
   &__product {
-    /* Rectangle 16: */
-    width: 252px;
+    width: auto;
     border: 1px solid #e3e3e3;
     padding: 21px;
+    text-align: center;
+    @include respond('tab-port') {
+      /* Rectangle 16: */
+      width: auto;
+      height: 100%;
+      border: 1px solid #e3e3e3;
+      padding: 21px;
+    }
+  }
+  // Change name in HTML
+  #carouselExampleControls2 {
+    .carousel-inner {
+      a.carousel-control-next {
+        span {
+          background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+        }
+      }
+      a.carousel-control-prev {
+        span {
+          background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+        }
+      }
+    }
+  }
+}
+.featured-categories {
+  .bg-green {
+    background-color: $main-green;
+    padding: 39px 57px;
+  }
+  .new-products {
+    background-image: url('/img/new-products-img.jpg');
+    height: 100%;
+    padding: 90px 20px;
+    @include respond('desktop') {
+      padding: 87px;
+    }
+  }
+  @include respond('desktop') {
+    [class^='col-'] {
+      padding: 0;
+    }
+  }
+  .new-products--3 {
+    background-image: url('/img/new-products--3-img.jpg');
+    background-repeat: no-repeat;
+    height: 100%;
+    padding: 90px 50px;
+  }
+  .sights {
+    background-image: url('/img/sight-img.jpg');
+    height: 100%;
+    padding: 50px 53px;
+  }
+  .cases {
+    background-image: url('/img/cases-img.jpg');
+    height: 100%;
+    padding: 60px 63px;
   }
 }

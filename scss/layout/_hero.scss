@@ -1,5 +1,12 @@
 .hero {
-  .carousel-inner {
+  height: auto;
+  @include respond('desktop') {
     height: 80vh;
+  }
+  .carousel-inner {
+    height: auto;
+    @include respond('desktop') {
+      height: 80vh;
+    }
   }
 }

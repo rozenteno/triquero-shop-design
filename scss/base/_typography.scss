@@ -15,7 +15,20 @@
 }
 // -----------Header Container-------------
 .input-group {
-  font: 400 10px $main-font;
+  #search-input {
+    font: 400 13px $main-font;
+    color: #5e5e5e;
+    &::placeholder {
+      /* Chrome, Firefox, Opera, Safari 10.1+ */
+      color: #5e5e5e;
+      opacity: 0.4; /* Firefox */
+    }
+    &::-ms-input-placeholder {
+      /* Microsoft Edge */
+      color: #5e5e5e;
+      opacity: 0.4;
+    }
+  }
 }
 
 .search-container {
@@ -49,13 +62,21 @@
   }
 }
 
-// -----------Paragraph Class-------------
+// -----------Paragraph Classes-------------
 .paragraph {
-  font: 400 16 $main-font;
+  font: 500 13px $main-font;
+  margin-bottom: 0;
+  @include respond('desktop') {
+    font-size: 16px;
+    margin-top: 2px;
+  }
   &--grey {
     margin-top: 15px;
-    font: 300 16px/2 $secondary-font;
+    font: 300 14px/2 $secondary-font;
     color: #6b6b6b;
+    @include respond('tab-port') {
+      font-size: 16px;
+    }
   }
   &--white {
     font-size: 14px;
@@ -63,11 +84,25 @@
   }
 }
 
+.p-white {
+  font: 400 14px/1.5 $secondary-font;
+  color: #fff;
+}
+.p-black {
+  font: 400 14px/1.5 $secondary-font;
+  color: #000;
+}
 // -----------Subscribe Section-------------
 .subscribe-section {
   &.__input {
     font-family: $secondary-font;
     font-weight: 300;
+  }
+  .input-group {
+    .form-control {
+      font: 400 12px $main-font;
+      color: #cfcfcf;
+    }
   }
 }
 
@@ -90,6 +125,9 @@
     }
   }
   &__product {
+    a {
+      text-decoration: none;
+    }
     &--name,
     --brand {
       font-family: $main-font;
@@ -109,7 +147,9 @@
       font-family: $secondary-font;
       font-weight: 700;
       font-size: 24px;
-      padding-bottom: 19px;
+      margin-bottom: 0;
+      color: #000;
+      // padding-bottom: 19px;
     }
   }
 }
@@ -137,6 +177,61 @@
   }
 }
 
+// -----------Featured Categories-------------
+.featured-categories {
+  .bg-green {
+    h2,
+    h1 {
+      font-family: $main-font;
+      font-weight: 700;
+      color: #fff;
+    }
+    h1 {
+      font-size: 72px;
+    }
+    h2 {
+      font-size: 22px;
+      text-transform: uppercase;
+    }
+  }
+}
+
+.new-products {
+  h2 {
+    font: 700 48px $main-font;
+    color: #fff;
+    text-transform: uppercase;
+  }
+}
+
+.new-products--3 {
+  h2 {
+    font: 700 28px $main-font;
+    color: #fff;
+    text-transform: uppercase;
+  }
+}
+.sights {
+  h2 {
+    font: 700 36px $main-font;
+    color: #fff;
+    text-transform: uppercase;
+    span {
+      font-size: 48px;
+    }
+  }
+}
+.cases {
+  h2 {
+    font: 700 36px $main-font;
+    color: #fff;
+    text-transform: uppercase;
+    span {
+      font-size: 48px;
+    }
+  }
+}
+
 // -----------Footer-------------
 footer.footer {
   h1.footer--brand {
@@ -149,7 +244,7 @@ footer.footer {
     color: #616161;
   }
   h3.footer--link__main {
-    font: 400 0.7rem $main-font;
+    font: 700 15px $main-font;
     color: #fff;
   }
   ul {
@@ -157,17 +252,29 @@ footer.footer {
     padding: 0;
     li {
       margin-top: 15px;
-      font: 400 0.5rem $secondary-font;
+      font: 400 12px $secondary-font;
       color: #9b9b9b;
     }
   }
   .footer__bottom {
     p {
-      font: 400 0.5rem $secondary-font;
+      font: 400 11px $secondary-font;
       color: #9b9b9b;
       span {
         font-weight: 700;
       }
     }
+  }
+}
+
+// -----------Login Page-------------
+.login__information {
+  h1 {
+    font: 700 36px $main-font;
+    color: $main-green;
+  }
+  p {
+    font: 400 15px/1.5 $secondary-font;
+    color: #6b6b6b;
   }
 }
